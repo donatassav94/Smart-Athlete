@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Smart_Athlete.Smart_Athlete" android:versionCode="1" android:versionName="1.0" android:installLocation="preferExternal">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="19" />
+  <application android:label="Smart_Athlete" android:icon="@drawable/barbell_icon" android:debuggable="false" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:icon="@drawable/barbell_icon" android:label="Smart Athlete" android:theme="@style/MyTheme" android:name="md54712878652bd1b51e0d0e2e2ea334d70.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Pratimo Informacija" android:noHistory="true" android:theme="@style/MyTheme" android:name="md54712878652bd1b51e0d0e2e2ea334d70.Pratimo_info" />
+    <activity android:label="Plano Informacija" android:theme="@style/MyTheme" android:name="md54712878652bd1b51e0d0e2e2ea334d70.Tren_plano_info" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Smart_Athlete.Smart_Athlete.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+  <meta-data android:name="android.support.VERSION" android:value="25.3.1" />
+</manifest>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:myapp="http://schemas.android.com/apk/res-auto">
+  
+  <item
+  android:id="@+id/edit_plan"
+  android:title="edit_plan"
+  android:icon="@drawable/edit_plan"
+  myapp:showAsAction="always"/>
+  
+  <item
+    android:id="@+id/barbell_icon"
+    android:title="barbell_icon"
+    android:icon="@drawable/barbell_icon"
+    myapp:showAsAction="always"/>
+</menu>

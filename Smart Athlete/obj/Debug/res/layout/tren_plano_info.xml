@@ -1,0 +1,21 @@
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="#C8FFC0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"><android.support.v7.widget.Toolbar android:id="@+id/tren_plan_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize" android:background="#437F3A" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:layout_scrollFlags="scroll|enterAlways" /><ListView android:id="@+id/LentelesListView" android:layout_width="match_parent" android:layout_height="match_parent" android:choiceMode="singleChoice" /></LinearLayout><!--sdv<TableLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tableLayout1"
+    android:background="#C8FFC0"
+    android:stretchColumns="*">
+  
+ 
+  <android.support.v7.widget.Toolbar
+      android:id="@+id/tren_plan_toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:minHeight="?attr/actionBarSize"
+      android:background="#437F3A"
+      app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+      app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+      app:layout_scrollFlags="scroll|enterAlways" />
+  </TableLayout>-->

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#8FFF69"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="300dp"
+    android:minHeight="250dp">
+  <TextView
+     android:id="@+id/textviewpavad"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Pratimo pavadinimas: "
+     android:layout_marginBottom="5dp"
+     android:layout_marginLeft="20dp"
+     android:layout_marginRight="20dp"
+     android:layout_marginTop="15dp"/>
+  <EditText
+      android:id="@+id/pavad_naujo_prat"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_marginBottom="10dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginTop="15dp"
+      android:layout_below="@id/textviewpavad"
+      android:paddingLeft="10dp"
+      android:maxLines="1"
+      android:inputType="text"
+      android:maxLength="40"
+      android:textColor="#000" />
+  <TextView
+    android:id="@+id/textviewinfo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Pratimo informacija: "
+    android:layout_below="@id/pavad_naujo_prat"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="15dp"/>
+  <EditText
+     android:id="@+id/info_naujo_prat"
+     android:layout_width="match_parent"
+     android:layout_height="80dp"
+     android:layout_marginBottom="10dp"
+     android:layout_marginLeft="20dp"
+     android:layout_marginRight="20dp"
+     android:layout_marginTop="15dp"
+     android:layout_below="@id/textviewinfo"
+     android:paddingLeft="10dp"
+     android:maxLines="3"
+     android:inputType="text"
+     android:maxLength="200"
+     android:textColor="#000" />
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/info_naujo_prat"
+      android:layout_marginTop="30dp">
+    <Button
+        android:text="Kurti!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kurtipratima"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp" />
+  </RelativeLayout>
+</RelativeLayout>

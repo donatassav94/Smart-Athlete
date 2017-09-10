@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#8FFF69"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="300dp"
+    android:minHeight="250dp">
+  <TextView
+        android:id="@+id/uzrasas2"
+        android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+        android:text="Į kurį planą įtraukti šį pratimą? "
+        android:layout_alignParentTop="true"
+        android:background="#C8FFC0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+  <ListView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/uzrasas2"
+      android:choiceMode="singleChoice"
+      android:divider="#000000"
+      android:dividerHeight="3dp"
+      android:id="@+id/visiplanaisarasas"
+      />
+</RelativeLayout>

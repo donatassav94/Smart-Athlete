@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="30px"
+    android:minHeight="30px"
+    android:paddingLeft="5dp"
+    android:paddingBottom="2dp"
+    android:paddingTop="2dp"
+    android:weightSum="100">
+    <TextView
+        android:id="@+id/nr"
+        android:layout_width="0px"
+        android:layout_height="40dp"
+        android:baselineAligned="false"
+        android:singleLine="true"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:background="@drawable/Table_laukelis"
+        android:text="Nr." />
+    <TextView
+        android:id="@+id/plano_pavadinimas"
+        android:layout_width="0px"
+        android:layout_height="40dp"
+        android:baselineAligned="false"
+        android:singleLine="true"
+        android:gravity="center"
+        android:layout_weight="60"
+        android:background="@drawable/Table_laukelis"
+        android:text="Pavadinimas." />
+    <TextView
+        android:id="@+id/serijos"
+        android:layout_width="0px"
+        android:layout_height="40dp"
+        android:baselineAligned="false"
+        android:singleLine="true"
+        android:layout_weight="15"
+        android:gravity="center"
+        android:background="@drawable/Table_laukelis"
+        android:text="Serijų kiekis." />
+    <TextView
+        android:id="@+id/pakartojimai"
+        android:layout_width="0px"
+        android:layout_height="40dp"
+        android:baselineAligned="false"
+        android:layout_weight="15"
+        android:singleLine="true"
+        android:gravity="center"
+        android:background="@drawable/Table_laukelis"
+        android:text="Pakartojimų kiekis." />
+</LinearLayout>

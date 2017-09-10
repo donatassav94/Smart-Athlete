@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="#C8FFC0">
+    <TextView
+        android:id="@+id/textasg"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Atidaryk ir pasirink pratimų grupes iš kairės!"
+        android:textColor="#000"
+        android:layout_centerInParent="true" />
+  <TextView
+       android:id="@+id/textasy"
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:layout_below="@id/textasg"
+       android:text="Arba pasirink treniruočių planus dešiniajame kampe!"
+       android:textColor="#000"
+       android:layout_centerInParent="true" />
+    <!--<Button
+        android:id="@+id/Mybutton2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="Pamatyti DB" -->
+    
+</RelativeLayout>
